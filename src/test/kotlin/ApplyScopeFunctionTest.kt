@@ -2,7 +2,7 @@ import org.junit.jupiter.api.Test
 import kotlin.test.assertEquals
 
 class ApplyScopeFunctionTest {
-    
+
     @Test
     fun `test object configuration with the apply scope function`() {
         val person = Person("Average Joe", 20, "", "").apply {
